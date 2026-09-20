@@ -1,0 +1,20 @@
+* {
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: large;
+}
+
+h1 {
+  font-size: unset;
+  font-weight: 800;
+  margin: auto;
+}
+
+p {
+  margin: auto;
+}
+
+b {
+  font-weight: 600;
+}
+
