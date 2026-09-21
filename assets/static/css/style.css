@@ -58,6 +58,6 @@ a::after {
   background-repeat: no-repeat;
 }
 
-a[href^="http"]:hover::after {
+a:hover::after {
   filter: brightness(0) invert(1);
 }
