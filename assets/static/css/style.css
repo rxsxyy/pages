@@ -1,7 +1,7 @@
 body {
   margin: 2rem auto;
   padding: 0.5rem;
-  max-width: 40rem;
+  max-width: 50rem;
   border: 1px solid #888;
   box-shadow: 10px 10px #555;
   line-height: 1.5rem;
@@ -23,7 +23,7 @@ a:hover {
 }
 
 nav a {
-  font-size: small;
+  font-size: smaller;
   margin-right: 1cm;
 }
 
@@ -46,7 +46,7 @@ hr.pattern-dots {
   max-height: 1rem;
 }
 
-a[href^="http"]::after {
+a::after {
   content: "";
   display: inline-block;
   width: 0.7em;
