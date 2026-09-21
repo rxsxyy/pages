@@ -1,10 +1,15 @@
+html {
+  background: #eee;
+}
+
 body {
   margin: 2rem auto;
   padding: 0.5rem;
-  max-width: 50rem;
+  max-width: 30rem;
   border: 1px solid #888;
   box-shadow: 10px 10px #555;
   line-height: 1.5rem;
+  background: #fff;
 }
 
 .center {
@@ -35,7 +40,7 @@ footer {
   text-align: center;
 }
 
-footer p {
+footer p.copy {
   font-size: small;
 }
 
