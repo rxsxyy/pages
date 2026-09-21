@@ -66,3 +66,11 @@ a::after {
 a:hover::after {
   filter: brightness(0) invert(1);
 }
+
+a:has(img) {
+  background: none !important;
+}
+
+a:has(img)::after {
+  content: none;
+}
