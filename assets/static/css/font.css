@@ -3,27 +3,27 @@
   font-weight: 400;
 }
 
-h1 {
+h1, h2, h3 {
   width: 100%;
   font-size: unset;
-  font-weight: 800;
   margin: auto;
+  border-bottom: 1px solid #888;
+}
+
+h1 {
+  font-weight: 800;
 }
 
 h2 {
-  width: 100%;
-  font-size: unset;
   font-weight: 700;
-  margin: auto;
-  border-bottom: 1px solid #888;
 }
 
 h3 {
-  width: 100%;
-  font-size: unset;
   font-weight: 600;
-  margin: auto;
-  border-bottom: 1px solid #888;
+}
+
+header h1 {
+  border-bottom: unset
 }
 
 p {
