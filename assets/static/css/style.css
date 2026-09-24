@@ -74,3 +74,10 @@ a:has(img) {
 a:has(img)::after {
   content: none;
 }
+
+img.blog {
+  width: 100%;
+  display: flex;
+  border: 1px solid #555;
+  margin: 0.5rem auto;
+}
